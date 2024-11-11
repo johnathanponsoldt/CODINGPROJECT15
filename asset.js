@@ -4,6 +4,6 @@ export const productList = [
     { id: 2, name: 'Basketball', price: 50 }
 ];
 
-export function getProductById(id) {
+export function getAssetByID(id) {
     return productList.find(product => product.id === id);
 }
